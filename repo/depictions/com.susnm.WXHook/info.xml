@@ -16,7 +16,22 @@
     <package>KarenLocalizer</package>
   </dependencies>
 	<descriptionlist>
-		<description>This adds icons to the Sections.</description>
+    <description><![CDATA[
+      - 红包记录，查看今日红包收支情况<br/>
+      - 转发文字、图片、视频类型的信息<br/>
+      - 转发时可以自动屏蔽信息来源者<br/>
+      - 截图时快速转发好友、朋友圈<br/>
+      - 聊天窗口长按房间名时快速截图，并分享好友、朋友圈<br/>
+      - 朋友圈消息转发<br/>
+      - 发送消息时，连续输入空格快速换行（可自定义设置空格数）<br/>
+      - 倒出群图片、视频到文件路径/var/mobile/tmp/WeChat<br/>
+      - 自定义步数( 使用命令给自己发微信：修改步数#13752 )<br/>
+      - 消息防撤回<br/>
+      - 使用Safari浏览Text Message内的链接<br/>
+      - 防越狱检测（可使用指纹支付功能）<br/>
+      - 快速清空未读信息的红点提示（强迫症福音）<br/>
+      - 快速清空公众号的推送记录<br/>
+    ]]></description>
 	</descriptionlist>
 	<screenshots>
     <screenshot>
