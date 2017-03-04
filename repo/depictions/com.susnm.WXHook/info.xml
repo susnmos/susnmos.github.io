@@ -1,0 +1,24 @@
+<package>
+	<id>com.susnm.WXHook</id>
+	<name>susnm</name>
+	<version>1.1.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0+</miniOS>
+      <maxiOS>10.0+</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>This adds icons to the Sections.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
