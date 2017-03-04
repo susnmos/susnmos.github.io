@@ -5,9 +5,9 @@ Essential: yes
 Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
 Filename: ./debs/com.nrepo.nicon_1.0.4_iphoneos-arm.deb
 Size: 12538
-MD5sum: f22edfbe05aa305d8b7723e537b86781
-SHA1: 6f8e825b667d385bc6d973baf37524c56900b251
-SHA256: 4b5a14b47042544637b9ccb782626ba514df145cb8601838fc7f0ce0b6c70c46
+MD5sum: 670b3450eab23b287e8699fc834da8c6
+SHA1: f01692ed97a6d0a660c225df56485d95d47d24d8
+SHA256: 1276a230a1d68eec02fef716f143ab8a31491a7a4d618261ce0ca3404f0853e5
 Section: aTweaks
 Priority: required
 Description: Adds setup files, icons and sources to repo
@@ -22,9 +22,9 @@ Architecture: iphoneos-arm
 Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
 Filename: ./debs/com.nrepo.nsb_1.0.2_iphoneos-arm.deb
 Size: 629796
-MD5sum: 3d091325e188dc70e86452838931e4e6
-SHA1: a884c512c4898dd10e514b5aac5230cead769f0d
-SHA256: 55a2adec4e938f0ad09766fc9f112751e5513070fe2601f4ee8d35155828a04b
+MD5sum: 5b99718e9a18c046931925595761abc7
+SHA1: 99ec1fbb2eb6f8df80b7aafc908a3ae192d07a6e
+SHA256: 6720caf1426083d281792c8a70d8d3c7d480bf526529162f9a87b98c93a8bfcb
 Section: aThemes
 Description: Crystal Apple Theme
 Author:  NsBm0d 
@@ -37,15 +37,15 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss
 Depends: firmware (>= 9.0), mobilesubstrate, net.angelxwind.karenlocalizer
 Filename: ./debs/com.susnm.wxhook_1.2_iphoneos-arm.deb
-Size: 1048
-MD5sum: ff2352d5cfffe1fd9019b60de4aab6f3
-SHA1: 131a58edc4dfb1ccaefafc54a36f90a8c8c7f2fb
-SHA256: d8a83980588df9263dd3e77915feb60c459374f1194e1742e365c92387482eb1
+Size: 1052
+MD5sum: 227abe2b0f44dcb7edf537b5a8494da1
+SHA1: 261e5684251784da787875881f7a54f38795c705
+SHA256: 0bc3f3f90ce7b2d0e6e4e06b6db6c27b47fefa82ddf4178e0236e029ea94a408
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/susnmos/WXHook
 Description: A tweak for WeChat.微信小辅助
 Author: susnm
-Depiction: https://susnmos.github.io/depictions/?p=com.susnm.WXHook
+Depiction: https://susnmos.github.io/repo/depictions/?p=com.susnm.WXHook
 Name: WXHook
 
