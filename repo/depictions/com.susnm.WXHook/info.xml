@@ -12,7 +12,11 @@
 			-->
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+    <dependencie>
+      net.angelxwind.karenlocalizer
+    </dependencie>
+  </dependencies>
 	<descriptionlist>
 		<description>This adds icons to the Sections.</description>
 	</descriptionlist>
