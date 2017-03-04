@@ -1,8 +1,10 @@
 <changelog>
 	<changes>
 		<version>1.1.2</version>
-    <change>- 优化命令修改步数后的显示</change>
-    <change>- 修复设置中滑块不显示的问题</change>
+    <change><![CDATA[
+      - 优化命令修改步数后的显示<br/>
+      - 修复设置中滑块不显示的问题
+    ]]></change>
 	</changes>
   <changes>
     <version>1.1</version>
