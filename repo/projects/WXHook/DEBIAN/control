@@ -11,7 +11,7 @@ Architecture: iphoneos-arm
 Author: susnm
 dev: 
 Homepage: https://github.com/susnmos/WXHook
-Depiction:
+Depiction:https://susnmos.github.io/depictions/?p=com.susnm.WXHook
 Maintainer: BigBoss
 Icon: 
 
