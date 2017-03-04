@@ -16,9 +16,51 @@
 	<descriptionlist>
 		<description>This adds icons to the Sections.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+    <screenshot>
+      <description>IMG_1024.PNG</description>
+      <image>IMG_1024.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>IMG_1029.PNG</description>
+      <image>IMG_1029.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>IMG_1079.PNG</description>
+      <image>IMG_1079.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>IMG_1131.PNG</description>
+      <image>IMG_1131.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>IMG_1132.PNG</description>
+      <image>IMG_1132.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>IMG_1189.PNG</description>
+      <image>IMG_1189.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>IMG_1319.PNG</description>
+      <image>IMG_1319.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>IMG_1320.PNG</description>
+      <image>IMG_1320.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>IMG_1452.PNG</description>
+      <image>IMG_1452.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>IMG_1484.PNG</description>
+      <image>IMG_1484.PNG</image>
+    </screenshot>
+  </screenshots>
 	<changelog>
-		<change>Initial release</change>
+    <change>- 优化命令修改步数后的显示</change>
+    <change>- 修复设置中滑块不显示的问题</change>
 	</changelog>
 	<links></links>
 </package>

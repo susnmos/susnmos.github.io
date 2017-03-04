@@ -5,9 +5,9 @@ Essential: yes
 Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
 Filename: ./debs/com.nrepo.nicon_1.0.4_iphoneos-arm.deb
 Size: 12538
-MD5sum: 1b5107bb57b4ae1fab8aa9b14c6b9b6e
-SHA1: 4855f646ce48d920d71e5bc55bc11dd61e188f7d
-SHA256: ba72f69df2b0f4c7db4453223a47a05bfa54616c96281167773b2b8183c65aa1
+MD5sum: e6822e7f0401ef8c31e934cc2c39d0ae
+SHA1: c63a1fe0bf6c37ca67584a318992ab8ec37242bc
+SHA256: c828bd9193fcdc7f36d3fd99aeecec35c19d6850d3d8a42dd0bd6c15f2cefac4
 Section: aTweaks
 Priority: required
 Description: Adds setup files, icons and sources to repo
@@ -22,9 +22,9 @@ Architecture: iphoneos-arm
 Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
 Filename: ./debs/com.nrepo.nsb_1.0.2_iphoneos-arm.deb
 Size: 629796
-MD5sum: d6f1f6017b9aa513e7b988c70f66ede8
-SHA1: 5b4bba77e08a0174fc610b5dbf8b17e8f4f4e1d9
-SHA256: b808b65452fb633cc9d4b3d24770ff54f525d5069fa050dbd2b0430b4cf2ec16
+MD5sum: d79222d84d8efb62cb2c136f11f434bc
+SHA1: f8b305df1df4b3e7791cfb668abbe254fab0ef03
+SHA256: 93f544b1363ad9e65ccbe55b68d22f01b241e006559af658135dd92e4b8d65b4
 Section: aThemes
 Description: Crystal Apple Theme
 Author:  NsBm0d 
@@ -38,9 +38,9 @@ Maintainer: BigBoss
 Depends: firmware (>= 9.0), mobilesubstrate, net.angelxwind.karenlocalizer
 Filename: ./debs/com.susnm.wxhook_1.2_iphoneos-arm.deb
 Size: 1052
-MD5sum: dd9fa1fa37b71a73738810a1bef86d2f
-SHA1: 7795a3c1c792aa446dbcdeb23183f5976474beef
-SHA256: 181a300135f25ce079ae1d4fc877c55e18527ff3799b379a2c2a333d07e59c95
+MD5sum: dde86e4f053a25eb5012bba32510a2fc
+SHA1: 4af05037b7c0e82d8599d5a2fb3dc60af9844c8f
+SHA256: 7b2cbb77f198f2791f62bed741840389071252dc2146960cdc9720bcc00eae76
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/susnmos/WXHook
