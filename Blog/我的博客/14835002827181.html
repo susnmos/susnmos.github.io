@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        
+        Swift中的倒序遍历注意点 - susnm's Blog
+        
+    </title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="atom.xml" rel="alternate" title="susnm's Blog" type="application/atom+xml">
+
+    <link href="asset/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="asset/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script src="asset/javascripts/jquery.min.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/solarized_dark.css" media="screen, projection" rel="stylesheet"
+          type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!--[if lt IE 9]>
+    <script src="asset/javascripts/html5.js"></script><![endif]-->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'> -->
+    <style type="text/css">
+        /* latin */
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Nunito-Light'), url(asset/font/1TiHc9yag0wq3lDO9cw0voX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Nunito-Regular'), url(asset/font/6TbRXKWJjpj6V2v_WyRbMX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Nunito-Bold'), url(asset/font/TttUCfJ272GBgSKaOaD7KoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+    </style>
+
+    <style type="text/css">
+        .container .left-col {
+            opacity: 1;
+        }
+
+        #pagenavi a {
+            font-size: 1.3em;
+        }
+
+        #pagenavi .next:before {
+            top: 3px;
+        }
+
+        #pagenavi .prev:before {
+            top: 3px;
+        }
+
+        .container .mid-col .mid-col-container #content .archives .title {
+            font-size: 1.5em;
+        }
+
+        .container .mid-col .mid-col-container #content article {
+            padding: 15px 0px;
+        }
+
+        #header .subtitle {
+            line-height: 1.2em;
+            padding-top: 8px;
+        }
+
+        article pre {
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        article .entry-content {
+            text-align: left;
+        }
+
+        .share-comment {
+            padding: 25px 0px;
+            clear: both;
+        }
+
+        .share-comment a {
+            width: 24px;
+            height: 24px;
+        }
+
+        hr {
+            margin: 20px 0px;
+            border: 0;
+            border-top: solid 1px #ddd;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+<div class="container">
+    <div class="left-col">
+        <div class="intrude-less">
+            <header id="header" class="inner">
+                
+                <div class="profilepic" style="text-align: center">
+                    <a href="https://susnmos.github.io" title="前往 susnm 的主页" class="blog-button">
+                        <img src="https://ww2.sinaimg.cn/large/006tNc79jw1fc4fzg7e93j31kw1kw7p2.jpg" style="width:200px;height: 200px">
+                    </a>
+                </div>
+                
+
+                <h1 style="margin-top: 50px; text-align: center"><a href="index.html">susnm's Blog</a></h1>
+                <p class="subtitle" style="text-align: center">因为爱上编程，因为编程爱上技术</p>
+                <nav id="main-nav">
+                    <ul class="main" style="text-align: center">
+                        
+                        <li id=""><a target="self" href="index.html">Home</a></li>
+                        
+                        <li id=""><a target="_self" href="archives.html">Archives</a></li>
+                        
+                    </ul>
+                </nav>
+
+                <nav id="sub-nav">
+                    <div class="social">
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a target="_blank" class="instagram"
+                                                            href="https://www.instagram.com/susnmos/"
+                                                            title="Instagram">Instagram</a>
+                        <a target="_blank" class="weibo" href="http://weibo.com/u/2997526460?refer_flag=1001030101_"
+                                                        title="weibo">Weibo</a>
+                        <a target="_blank" class="twitter" target="_blank"
+                                                          href="https://twitter.com/susnmwwz" title="Twitter">Twitter</a>
+                        <a target="_blank" class="github" target="_blank"
+                                                         href="https://github.com/susnmos" title="GitHub">GitHub</a>
+                        <a target="_blank" class="email" href="mailto:wwzmzs@gmail.com"
+                                                    title="Email">Email</a>
+
+
+                        <!--<a class="rss" href="atom.xml" title="RSS">RSS</a>-->
+
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div class="mid-col">
+        <div class="mid-col-container"> <div id="content" class="inner">
+
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="title" itemprop="name">Swift中的倒序遍历注意点</h1>
+        <div class="entry-content" itemprop="articleBody">
+            <p>在Swift中的标准库中有方法</p>
+
+<ul>
+<li><code>public func enumerated() -&gt; EnumeratedSequence&lt;Array&lt;Element&gt;&gt;</code>：可以用来快速的枚举数组中的内容，并用元组(index, value)接收</li>
+<li><code>public func reversed() -&gt; ReversedRandomAccessCollection&lt;Array&lt;Element&gt;&gt;</code>：可以倒叙数组内容</li>
+</ul>
+
+<blockquote>
+<p>但是当两者结合使用，并需要用到索引时需要注意</p>
+</blockquote>
+
+<pre><code>let array = [&quot;hello&quot;, &quot;welcome&quot;]
+for i in array.enumerated().reversed() {
+  print(i) 
+//  (1, &quot;welcome&quot;)
+//  (0, &quot;hello&quot;)
+}
+
+for i in array.reversed().enumerated() {
+  print(i) 
+//  (0, &quot;welcome&quot;)
+//  (1, &quot;hello&quot;)
+}
+</code></pre>
+
+<p>可以看到，两种写法<code>index</code>对应的<code>value</code>是不一样的。如果先<code>enumerated()</code>数组，那么<code>reversed ()</code>会带索引一起倒叙。</p>
+
+        </div>
+    </article>
+    <div class="share-comment">
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_tsina" title="分享到微博"><span class="jiathis_txt jtico jtico_tsina" style="width: 24px;height: 24px"></span></a>
+	<a class="jiathis_button_tqq" title="分享到腾讯微博"><span class="jiathis_txt jtico jtico_tqq" style="width: 24px;height: 24px"></span></a>
+	<a class="jiathis_button_weixin" title="分享到微信"><span class="jiathis_txt jtico jtico_weixin" style="width: 24px;height: 24px"></span></a>
+	<a class="jiathis_button_qzone" title="分享到QQ空间"><span class="jiathis_txt jtico jtico_qzone" style="width: 24px;height: 24px"></span></a>
+	<a class="jiathis_button_renren" title="分享到人人网"><span class="jiathis_txt jtico jtico_renren" style="width: 24px;height: 24px"></span></a>
+	<a href="http://www.jiathis.com/share?uid=2123492" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank" style="width: 24px;height: 24px"></a>
+	<a class="jiathis_counter_style" style="width: 24px;height: 24px"><span class="jiathis_button_expanded jiathis_counter jiathis_bubble_style" id="jiathis_counter_40" title="累计分享1次">1</span></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2123492" charset="utf-8"></script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/plugin.client.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+<!-- 多说评论框 start -->
+	<div class="ds-thread"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"susnmos"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+
+
+
+        
+
+        
+
+    </div>
+</div>  </div>
+<footer id="footer" class="inner">Copyright &copy; 2015
+    Powered by <a target="_blank" href="http://susnmos.github.io">susnm</a> &nbsp;&nbsp;
+    <!--Theme by <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a>-->
+</footer>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

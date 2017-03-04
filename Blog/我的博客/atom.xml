@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title><![CDATA[susnm's Blog]]></title>
+    <link href="http://susnmos.github.io/atom.xml" rel="self"/>
+    <link href="http://susnmos.github.io/"/>
+    <updated>2017-03-04T12:14:31+08:00</updated>
+    <id>http://susnmos.github.io/</id>
+    <author>
+        <name><![CDATA[]]></name>
+
+    </author>
+    <generator uri="http://www.coderforart.com/">CoderForArt</generator>
+
+    
+    <entry>
+        <title type="html"><![CDATA[使用Reveal分析正版 app]]></title>
+        <link href="http://susnmos.github.io/14843616991443.html"/>
+        <updated>2017-01-14T10:41:39+08:00</updated>
+        <id>http://susnmos.github.io/14843616991443.html</id>
+        <content type="html"><![CDATA[
+<blockquote>
+<p>如果你需要对正版、没有源码的app进行分析，需要一台已越狱的 iPhone 手机</p>
+</blockquote>
+
+<h2 id="toc_0">安装Reveal Loader</h2>
+
+<p>在 <code>cydia</code> 上搜索 <code>reveal</code>，并安装 <code>Reveal Loader</code>插件。</p>
+
+<p><img src="media/14843616991443/IMG_0742.png" alt="IMG_0742" style="width:375px;"/></p>
+
+<p>之后就可以在设置中看到插件，只需要在里面打开需要分析的app，然后连接电脑，打开 <code>Reveal</code> </p>
+
+<p><img src="media/14843616991443/IMG_0744.png" alt="IMG_0744" style="width:375px;"/></p>
+
+<h2 id="toc_1">版本兼容</h2>
+
+<p><img src="media/14843616991443/IMG_0743.png" alt="IMG_0743" style="width:375px;"/></p>
+
+<p>从插件详情页可以看到，该插件在2014年之后就没有更新过，所以如果你使用的Mac上的是 <code>Reveal 2</code> 或者更新的版本，插件下的<code>libReveal.dylib</code>不能支持新<code>Reveal</code>的使用。</p>
+
+<p>因为<code>Reveal</code>从版本2开始使用 <code>framework</code> ，所以这之后，<code>libReveal.dylib</code> 存在于<code>Reveal.app/Contents/SharedSupport/iOS-Libraries/RevealServer.framework</code>目录下的 <code>RevealServer</code>。</p>
+
+<p>如果你使用了新版的<code>Reveal</code>，但是iPhone上用的是旧版的<code>Reveal Loader</code>会出现如下兼容错误：</p>
+
+<p><img src="media/14843616991443/Snip20170114_3.png" alt="Snip20170114_3" style="width:718px;"/></p>
+
+<p>如图，我们可以点击 <code>Show Reveal Library in Finder</code>找到新版的<code>RevealServer</code>，然后将其copy到iPhone的 <code>/Library/RHRevealLoader/libReveal.dylib</code>（<strong>需要修改文件名</strong>）。</p>
+
+<p>或者你可以直接使用ssh</p>
+
+<pre><code>$ scp /Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/RevealServer.framework/RevealServer root@your&#39;s ip:/Library/RHRevealLoader/libReveal.dylib
+</code></pre>
+
+<p>记得将<code>iPhone</code>注销一下</p>
+
+<pre><code>$ killall SpringBoard
+</code></pre>
+
+<p>之后，就可以在<code>Reveal</code>上看到我们需要分析的app了。</p>
+
+<p><img src="media/14843616991443/Snip20170114_5.png" alt="Snip20170114_5"/></p>
+
+<h2 id="toc_2">deb</h2>
+
+<p>最简单的方法就是下载我已经打包好的deb<a href="https://github.com/susnmos/RevealLoader2/releases">ReevalLoader2</a></p>
+
+]]></content>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[Swift中的倒序遍历注意点]]></title>
+        <link href="http://susnmos.github.io/14835002827181.html"/>
+        <updated>2017-01-04T11:24:42+08:00</updated>
+        <id>http://susnmos.github.io/14835002827181.html</id>
+        <content type="html"><![CDATA[
+<p>在Swift中的标准库中有方法</p>
+
+<ul>
+<li><code>public func enumerated() -&gt; EnumeratedSequence&lt;Array&lt;Element&gt;&gt;</code>：可以用来快速的枚举数组中的内容，并用元组(index, value)接收</li>
+<li><code>public func reversed() -&gt; ReversedRandomAccessCollection&lt;Array&lt;Element&gt;&gt;</code>：可以倒叙数组内容</li>
+</ul>
+
+<blockquote>
+<p>但是当两者结合使用，并需要用到索引时需要注意</p>
+</blockquote>
+
+<pre><code>let array = [&quot;hello&quot;, &quot;welcome&quot;]
+for i in array.enumerated().reversed() {
+  print(i) 
+//  (1, &quot;welcome&quot;)
+//  (0, &quot;hello&quot;)
+}
+
+for i in array.reversed().enumerated() {
+  print(i) 
+//  (0, &quot;welcome&quot;)
+//  (1, &quot;hello&quot;)
+}
+</code></pre>
+
+<p>可以看到，两种写法<code>index</code>对应的<code>value</code>是不一样的。如果先<code>enumerated()</code>数组，那么<code>reversed ()</code>会带索引一起倒叙。</p>
+
+]]></content>
+    </entry>
+    
+    <entry>
+        <title type="html"><![CDATA[bug?在iOS 10中snapshotViewAfterScreenUpdates:方法失效了?]]></title>
+        <link href="http://susnmos.github.io/14835004457077.html"/>
+        <updated>2017-01-04T11:27:25+08:00</updated>
+        <id>http://susnmos.github.io/14835004457077.html</id>
+        <content type="html"><![CDATA[
+<p>今天在学习自定义场景动画的时候发现，貌似在iOS 10中<code>snapshotviewafterscreenupdates</code>方法失效了。</p>
+
+<p>所以我用runtime的方法交换，实现了一下：</p>
+
+<pre><code>#import &quot;UIView+SnapshotView.h&quot;
+#import &lt;objc/message.h&gt;
+
+@implementation UIView (SnapshotView)
+
++ (void)load {
+  Method snapshotViewAfterScreenUpdatesMethod =  class_getInstanceMethod(self, @selector(snapshotViewAfterScreenUpdates:));
+  Method wwzSnapshotViewAfterScreenUpdatesMethod = class_getInstanceMethod(self, @selector(wwz_snapshotViewAfterScreenUpdates:));
+  
+  method_exchangeImplementations(snapshotViewAfterScreenUpdatesMethod, wwzSnapshotViewAfterScreenUpdatesMethod);
+}
+
+- (UIView *)wwz_snapshotViewAfterScreenUpdates:(BOOL)afterUpdates {
+  
+  if ([[NSProcessInfo processInfo] isOperatingSystemAtLeastVersion:(NSOperatingSystemVersion){10,0,0}]) { // iOS 10
+    
+    UIGraphicsBeginImageContext(self.frame.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [self.layer renderInContext:context];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    UIView *newView = [[UIView alloc] initWithFrame:self.frame];
+    newView.layer.contents = (id)image.CGImage;
+    
+    return newView;
+  }else { 
+    return [self wwz_snapshotViewAfterScreenUpdates:afterUpdates];
+  }
+}
+
+@end
+</code></pre>
+
+<p>这还是我第一次写文章，应该也不算文章吧，算是记录一下。希望对大家有点帮助</p>
+
+]]></content>
+    </entry>
+    
+</feed>
