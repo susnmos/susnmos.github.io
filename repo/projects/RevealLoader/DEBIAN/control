@@ -1,5 +1,5 @@
 Package: com.susnm.RevealLoader
-Name: Reveal
+Name: RevealLoader
 Version: 7
 Description: 
 Section: System
@@ -13,4 +13,3 @@ dev:
 Homepage: 
 Depiction: 
 Maintainer: susnm
-Icon: 

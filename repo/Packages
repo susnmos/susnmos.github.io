@@ -5,9 +5,9 @@ Essential: yes
 Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
 Filename: ./debs/com.nrepo.nicon_1.0.4_iphoneos-arm.deb
 Size: 12538
-MD5sum: 4aa57e5ab0775c8ad3b625f0428174c5
-SHA1: 6f13f49cc338525f00d8a5b70c12d64312894575
-SHA256: c3bd8acc63f099c551a01cc2fc2220a316ba1e0773a4c9cdc194b5ec2b260602
+MD5sum: 950bd9791ef904f7a5d0fd4307be6294
+SHA1: 531cc625f6cd8f7b3a129b83202ed732c759f8c1
+SHA256: 44b0fdb1147316b05edcb5a6655899e865418fda6a222062ad7577e38ae04d92
 Section: aTweaks
 Priority: required
 Description: Adds setup files, icons and sources to repo
@@ -22,14 +22,30 @@ Architecture: iphoneos-arm
 Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
 Filename: ./debs/com.nrepo.nsb_1.0.2_iphoneos-arm.deb
 Size: 629796
-MD5sum: a19fb72ad7944bf4bc2d2d26fdf0c754
-SHA1: 7e80fe04f5e6dab350bdbb07ffb34b43b8fd39c4
-SHA256: 53af8e382cda8680693085517b1d238330fac67baa546dc6c418a4e271a3f455
+MD5sum: 6ebd3b77641e11a0399888570931cbc8
+SHA1: 2593237ae5a568c05d03eb2011d9b938fb847fa9
+SHA256: 0e9cb8eb8b58613344bf4ffa24e9c9711e8593abf47cf576598edf2fdff1d140
 Section: aThemes
 Description: Crystal Apple Theme
 Author:  NsBm0d 
 Depiction: https://Nrepo.github.io/depictions/?p=com.Nrepo.NsB
 Name: NsB
+
+Package: com.susnm.RevealLoader
+Version: 7
+Architecture: iphoneos-arm
+Maintainer: susnm
+Depends: firmware (>= 5.0), mobilesubstrate
+Replaces: com.susnm.Reveal
+Filename: ./debs/com.susnm.revealloader_7_iphoneos-arm.deb
+Size: 936
+MD5sum: bd4acdf86c891eb6e5ee8e182d2f1da9
+SHA1: 7decc1b6646f18c35bcc94a5cedf3283379eab82
+SHA256: dbb47cd57f198e86ade3e61dbbb03779e479df0a2656d0c0251c95595e560fc8
+Section: System
+Priority: optional
+Author: susnm
+Name: RevealLoader
 
 Package: com.susnm.WXHook
 Version: 1.2
@@ -38,9 +54,9 @@ Maintainer: susnm
 Depends: firmware (>= 9.0), mobilesubstrate, net.angelxwind.karenlocalizer
 Filename: ./debs/com.susnm.wxhook_1.2_iphoneos-arm.deb
 Size: 1050
-MD5sum: 38392998beb8e3ab4e8aae568c3cc947
-SHA1: ede27a95621da9a44e4766bd4de67e01b03e927a
-SHA256: cb433cf68509428a02c01c3f1a3a1cb87d21ffda3e9cacb86176cfb71ec53430
+MD5sum: 098c234efc1d442fd55b1d37f4994364
+SHA1: 31442e856964b2904655468ea04e4508fef9c23d
+SHA256: ad424ae1b4bd84bbb79ee50eca5dc6a5131af82f9cae63f25cb5aebf9422386e
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/susnmos/WXHook

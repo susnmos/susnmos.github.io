@@ -1,10 +1,10 @@
 <package>
-	<id>com.susnm.WXHook</id>
+	<id>com.susnm.RevealLoader</id>
 	<name>susnm</name>
-	<version>1.1.2</version>
+	<version>7</version>
 	<compatibility>
 		<firmware>
-			<miniOS>9.0+</miniOS>
+			<miniOS>7.0+</miniOS>
 <!--      <maxiOS>10.0+</maxiOS>-->
 			<otherVersions>unsupported</otherVersions>
 			<!--
@@ -13,66 +13,17 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-    <package>KarenLocalizer</package>
+<!--    <package></package>-->
   </dependencies>
 	<descriptionlist>
     <description><![CDATA[
       - 红包记录，查看今日红包收支情况<br/>
-      - 转发文字、图片、视频类型的信息<br/>
-      - 转发时可以自动屏蔽信息来源者<br/>
-      - 截图时快速转发好友、朋友圈<br/>
-      - 聊天窗口长按房间名时快速截图，并分享好友、朋友圈<br/>
-      - 朋友圈消息转发<br/>
-      - 发送消息时，连续输入空格快速换行（可自定义设置空格数）<br/>
-      - 导出群图片、视频到文件夹/var/mobile/tmp/WeChat<br/>
-      - 自定义步数(可使用命令给自己发数字修改)<br/>
-      - 消息防撤回<br/>
-      - 使用Safari浏览Text Message内的链接<br/>
-      - 防越狱检测（可使用指纹支付功能）<br/>
-      - 快速清空未读信息的红点提示（强迫症福音）<br/>
-      - 快速清空公众号的推送记录<br/>
     ]]></description>
 	</descriptionlist>
 	<screenshots>
     <screenshot>
       <description>朋友圈分享</description>
       <image>IMG_1024.PNG</image>
-    </screenshot>
-    <screenshot>
-      <description>自动屏蔽消息来源者</description>
-      <image>IMG_1029.PNG</image>
-    </screenshot>
-    <screenshot>
-      <description>截图分享</description>
-      <image>IMG_1079.PNG</image>
-    </screenshot>
-    <screenshot>
-      <description>长按房间名截图</description>
-      <image>IMG_1131.PNG</image>
-    </screenshot>
-    <screenshot>
-      <description>输入空格换行</description>
-      <image>IMG_1132.PNG</image>
-    </screenshot>
-    <screenshot>
-      <description>统计今日红包收支</description>
-      <image>IMG_1189.PNG</image>
-    </screenshot>
-    <screenshot>
-      <description>导出群内容到文件夹</description>
-      <image>IMG_1319.PNG</image>
-    </screenshot>
-    <screenshot>
-      <description>部分导出群内容</description>
-      <image>IMG_1320.PNG</image>
-    </screenshot>
-    <screenshot>
-      <description>转发朋友圈信息（会自动下载）</description>
-      <image>IMG_1452.PNG</image>
-    </screenshot>
-    <screenshot>
-      <description>强迫症福音</description>
-      <image>IMG_1484.PNG</image>
     </screenshot>
   </screenshots>
 	<changelog>
