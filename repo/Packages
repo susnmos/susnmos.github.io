@@ -17,20 +17,19 @@ Depiction: https://susnmos.github.io/repo/depictions/?p=com.susnm.RevealLoader
 Name: RevealLoader
 
 Package: com.susnm.WXHook
-Version: 1.1.5-beta
+Version: 1.1.2
 Architecture: iphoneos-arm
-Maintainer: susnm
+Maintainer: BigBoss
 Depends: firmware (>= 9.0), mobilesubstrate, net.angelxwind.karenlocalizer
-Filename: ./debs/com.susnm.wxhook_1.1.5-beta_iphoneos-arm.deb
-Size: 216704
-MD5sum: 2d408e5069082734edb783a2df9c2c6e
-SHA1: 936703c3bb96c69cfbbd223d6a6dbeddf0886c6d
-SHA256: 04f80a6e3cb371315a0e1e4e86aa98f9e3739af1556dd9399a99e7b91a732872
+Filename: ./debs/com.susnm.WXHook_1.1.2_iphoneos-arm.deb
+Size: 164960
+MD5sum: f599d9b0e627c1a36ff4a17c8b594ec6
+SHA1: 94f6f1ab0b8ceae21a8dc7d1344930242c9b1fa4
+SHA256: f58e2345557939acda85656325a2be31a5ab222c780c16ebb84a3a75e2831ff9
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/susnmos/WXHook
-Description: 微信辅助。A tweak for WeChat.
+Description: A tweak for WeChat.微信小辅助
 Author: susnm
-Depiction: https://susnmos.github.io/repo/depictions/?p=com.susnm.WXHook
-Name: WXHook-微信辅助
+Name: WXHook
 
