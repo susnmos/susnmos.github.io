@@ -6,9 +6,9 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Replaces: com.susnm.Reveal
 Filename: ./debs/com.susnm.revealloader_7_iphoneos-arm.deb
 Size: 4097636
-MD5sum: f48f4d5ad678a4aec8381a377953ff5b
-SHA1: 0babc1062514ebd194160ea7d9418bc5c6547bab
-SHA256: d377f6ad45331751298ed20997033a2064b189294c87f0bf9d014fdbe066e666
+MD5sum: 960f6502bdc9dc2f005c187c7c8e82a5
+SHA1: 6d4939bb98715dad2db894c625980ac9f2f7c567
+SHA256: c5ee7b1c54a92316a3a63d3558c528df48a38c8e99463e36161d60c77fc45bad
 Section: System
 Priority: optional
 Description: A tweak for Reveal app.
@@ -22,15 +22,15 @@ Architecture: iphoneos-arm
 Maintainer: susnm
 Depends: firmware (>= 9.0), mobilesubstrate, net.angelxwind.karenlocalizer
 Filename: ./debs/com.susnm.wxhook_1.1.5-beta_iphoneos-arm.deb
-Size: 216704
-MD5sum: c83a5ed57e2cf5d915f251f8af3f52f9
-SHA1: ddfae26d853f0825cc8221674761844468c78d5d
-SHA256: 3d7a55a39526d0be5f0978f7c1ad3098e8ec5c5511ff90f8cce58bd58772d8f5
+Size: 216698
+MD5sum: f64b00ca47c960a8268e6c0a3b263a2d
+SHA1: 1363fbe7b7563b4863b6f43b3896b63d4e40c2a2
+SHA256: cfb2abed6dcbf4dee5d9dc592f35f068032bed0db30d49b53d4d850bb8f6d4b3
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/susnmos/WXHook
 Description: 微信辅助。A tweak for WeChat.
 Author: susnm
-Depiction: https://susnmos.github.io/repo/depictions/?p=com.susnm.WXHook
+Depiction: https://susnmos.github.io/beta/depictions/?p=com.susnm.WXHook
 Name: WXHook-微信辅助
 
