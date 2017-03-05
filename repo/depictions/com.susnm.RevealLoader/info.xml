@@ -17,18 +17,25 @@
   </dependencies>
 	<descriptionlist>
     <description><![CDATA[
-      - 红包记录，查看今日红包收支情况<br/>
+      - 支持使用Reveal for Mac调试分享他人的正版app<br/>
     ]]></description>
 	</descriptionlist>
 	<screenshots>
     <screenshot>
-      <description>朋友圈分享</description>
-      <image>IMG_1024.PNG</image>
+      <description>Enabled Applications</description>
+      <image>IMG_0744.png</image>
+    </screenshot>
+    <screenshot>
+      <description>与Reveal for Mac版本不兼容</description>
+      <image>Snip20170114_3.png</image>
+    </screenshot>
+    <screenshot>
+      <description></description>
+      <image>Snip20170114_5.png</image>
     </screenshot>
   </screenshots>
 	<changelog>
-    <change>- 优化命令修改步数后的显示</change>
-    <change>- 修复设置中滑块不显示的问题</change>
+    <change>- 支持Reveal 7 for Mac</change>
 	</changelog>
 	<links></links>
 </package>
