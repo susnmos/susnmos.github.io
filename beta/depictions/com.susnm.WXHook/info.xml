@@ -1,0 +1,33 @@
+<package>
+	<id>com.susnm.WXHook</id>
+	<name>susnm</name>
+	<version>1.1.5-beta</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0+</miniOS>
+<!--      <maxiOS>10.0+</maxiOS>-->
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+    <package>KarenLocalizer</package>
+  </dependencies>
+	<descriptionlist>
+    <description><![CDATA[
+      - 该版本为测试版<br/>
+      - 使用测试版可能会在使用过程中产生log文件<br/>
+      - 请在开发者要求下进行安装<br/>
+    ]]></description>
+	</descriptionlist>
+	<screenshots>
+    <screenshot>
+    </screenshot>
+  </screenshots>
+	<changelog>
+    <change>- 尝试修复步数问题</change>
+	</changelog>
+	<links></links>
+</package>

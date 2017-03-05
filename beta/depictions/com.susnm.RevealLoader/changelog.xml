@@ -1,0 +1,7 @@
+<changelog>
+	<changes>
+		<version>7</version>
+    <change>- 优化命令修改步数后的显示</change>
+    <change>- 修复设置中滑块不显示的问题</change>
+	</changes>
+</changelog>

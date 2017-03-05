@@ -1,0 +1,34 @@
+<package>
+	<id>com.susnm.RevealLoader</id>
+	<name>susnm</name>
+	<version>7</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0+</miniOS>
+<!--      <maxiOS>10.0+</maxiOS>-->
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+<!--    <package></package>-->
+  </dependencies>
+	<descriptionlist>
+    <description><![CDATA[
+      - 红包记录，查看今日红包收支情况<br/>
+    ]]></description>
+	</descriptionlist>
+	<screenshots>
+    <screenshot>
+      <description>朋友圈分享</description>
+      <image>IMG_1024.PNG</image>
+    </screenshot>
+  </screenshots>
+	<changelog>
+    <change>- 优化命令修改步数后的显示</change>
+    <change>- 修复设置中滑块不显示的问题</change>
+	</changelog>
+	<links></links>
+</package>
