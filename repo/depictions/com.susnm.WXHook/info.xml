@@ -1,7 +1,7 @@
 <package>
 	<id>com.susnm.WXHook</id>
 	<name>susnm</name>
-	<version>1.1.2</version>
+	<version>1.5</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0+</miniOS>
@@ -17,6 +17,7 @@
   </dependencies>
 	<descriptionlist>
     <description><![CDATA[
+      - 自动回复<br/>
       - 红包记录，查看今日红包收支情况<br/>
       - 转发文字、图片、视频类型的信息<br/>
       - 转发时可以自动屏蔽信息来源者<br/>
@@ -34,6 +35,14 @@
     ]]></description>
 	</descriptionlist>
 	<screenshots>
+    <screenshot>
+      <description>自动回复设置</description>
+      <image>IMG_1569.PNG</image>
+    </screenshot>
+    <screenshot>
+      <description>自动回复开关</description>
+      <image>IMG_1568.PNG</image>
+    </screenshot>
     <screenshot>
       <description>朋友圈分享</description>
       <image>IMG_1024.PNG</image>
@@ -76,8 +85,9 @@
     </screenshot>
   </screenshots>
 	<changelog>
-    <change>- 优化命令修改步数后的显示</change>
-    <change>- 修复设置中滑块不显示的问题</change>
+    <change>- 新增自动回复功能</change>
+    <change>- 增加了命令修改步数时的步数有效范围限制</change>
+    <change>- 一波优化</change>
 	</changelog>
 	<links></links>
 </package>
