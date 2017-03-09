@@ -1,5 +1,9 @@
 <changelog>
   <changes>
+    <version>1.6</version>
+    <change>- 修复了个人朋友圈页面转发朋友圈信息时可能造成微信闪退的bug</change>
+  </changes>
+  <changes>
     <version>1.5</version>
     <change>- 新增自动回复功能</change>
     <change>- 增加了命令修改步数时的步数有效范围限制</change>

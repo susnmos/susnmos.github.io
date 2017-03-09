@@ -1,7 +1,7 @@
 <package>
 	<id>com.susnm.WXHook</id>
 	<name>susnm</name>
-	<version>1.5</version>
+	<version>1.6</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0+</miniOS>
@@ -17,7 +17,7 @@
   </dependencies>
 	<descriptionlist>
     <description><![CDATA[
-      - 自动回复<br/>
+      - 自动回复Lite<br/>
       - 红包记录，查看今日红包收支情况<br/>
       - 转发文字、图片、视频类型的信息<br/>
       - 转发时可以自动屏蔽信息来源者<br/>
@@ -85,9 +85,7 @@
     </screenshot>
   </screenshots>
 	<changelog>
-    <change>- 新增自动回复功能</change>
-    <change>- 增加了命令修改步数时的步数有效范围限制</change>
-    <change>- 一波优化</change>
+    <change>- 修复了个人朋友圈页面转发朋友圈信息时可能造成微信闪退的bug</change>
 	</changelog>
 	<links></links>
 </package>
