@@ -19,8 +19,9 @@
     <description><![CDATA[
       - 该版本为测试版<br/>
       - 使用测试版可能会在使用过程中产生log文件<br/>
-      - 请在开发者要求下进行安装<br/>
+      - log文件在/var/mobile/tmp/WXlog<br/>
       - 如何发送log文件，请看截图<br/>
+      - 请在开发者要求下进行安装<br/>
     ]]></description>
 	</descriptionlist>
 	<screenshots>
