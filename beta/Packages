@@ -6,9 +6,9 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Replaces: com.susnm.Reveal
 Filename: ./debs/com.susnm.revealloader_7_iphoneos-arm.deb
 Size: 4097636
-MD5sum: c9e6229454f0edb6cd93793032ad7278
-SHA1: a9ccadbdcf3fdd255b8d4a3ad49ebc341994503c
-SHA256: 55b767ae988a1d305066dd93cb9b1117fc3a72ed1b37315782638108ef1d5b64
+MD5sum: 916685bce2b1093fd37ef387b7b6d428
+SHA1: c1a8d1650004eefd24fec46d44d169fbf2aa8578
+SHA256: 990d9642e5a660cccf7ffb2d935defd624e84deda1b06ad21d2fab7121c84248
 Section: System
 Priority: optional
 Description: A tweak for Reveal app.
@@ -17,15 +17,15 @@ Depiction: https://susnmos.github.io/repo/depictions/?p=com.susnm.RevealLoader
 Name: RevealLoader
 
 Package: com.susnm.WXHook
-Version: 1.7-beta2
+Version: 1.7-beta3
 Architecture: iphoneos-arm
 Maintainer: susnm
 Depends: firmware (>= 9.0), mobilesubstrate, net.angelxwind.karenlocalizer
-Filename: ./debs/com.susnm.wxhook_1.7-beta2_iphoneos-arm.deb
-Size: 267162
-MD5sum: cc2c51066a4b6be845cf42aed1517ab3
-SHA1: 22ad304833e77481710f48872eaaa20844e3222c
-SHA256: 84de89d30feb4b97e3964e035075727ea2d40edaeb35b16182d04accbf176aee
+Filename: ./debs/com.susnm.wxhook_1.7-beta3_iphoneos-arm.deb
+Size: 272184
+MD5sum: f362809a895c674b37ca0fb9a85b2748
+SHA1: 56ea62ded964a0ee9d5a30b30f8e1fbd5cb0f77e
+SHA256: fd9a0389118da7c04b414380c35d6cd89d09b062113870db634553822e0194bd
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/susnmos/WXHook
