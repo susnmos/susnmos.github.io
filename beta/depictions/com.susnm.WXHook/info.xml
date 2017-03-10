@@ -1,7 +1,7 @@
 <package>
 	<id>com.susnm.WXHook</id>
 	<name>susnm</name>
-	<version>1.1.5-beta</version>
+	<version>1.7-beta</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0+</miniOS>
@@ -20,14 +20,18 @@
       - 该版本为测试版<br/>
       - 使用测试版可能会在使用过程中产生log文件<br/>
       - 请在开发者要求下进行安装<br/>
+      - 如何发送log文件，请看截图
     ]]></description>
 	</descriptionlist>
 	<screenshots>
     <screenshot>
+      <description>发log给开发者</description>
+      <image>IMG_1575.PNG</image>
     </screenshot>
   </screenshots>
 	<changelog>
-    <change>- 尝试修复步数问题</change>
+    <change>- 尝试修复个人朋友圈页面转发信息时闪退的bug</change>
+    <change>- 尝试修复WXHook设置保存闪退的bug</change>
 	</changelog>
 	<links></links>
 </package>
