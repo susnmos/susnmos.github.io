@@ -87,6 +87,7 @@
 	<changelog>
     <change>- 添加了防撤回开关</change>
     <change>- 添加了主页显示自动回复开关</change>
+    <change>- 修复了一些设备因为文件权限无法写入配置文件导致闪退的bug</change>
 	</changelog>
 	<links></links>
 </package>
