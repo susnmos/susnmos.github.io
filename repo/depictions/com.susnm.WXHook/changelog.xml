@@ -1,5 +1,16 @@
 <changelog>
   <changes>
+    <version>1.8</version>
+    <changelog>
+      <change>- 添加了防撤回开关</change>
+      <change>- 添加了主页显示自动回复开关</change>
+    </changelog>
+  </changes>
+  <changes>
+    <version>1.7</version>
+    <change>- 修复了一些设备因为文件权限无法写入配置文件导致闪退的bug</change>
+  </changes>
+  <changes>
     <version>1.6</version>
     <change>- 修复了个人朋友圈页面转发朋友圈信息时可能造成微信闪退的bug</change>
   </changes>
