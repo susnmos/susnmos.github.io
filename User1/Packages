@@ -1,0 +1,18 @@
+Package: com.susnm.WXHook
+Version: 1.7.2
+Architecture: iphoneos-arm
+Maintainer: susnm
+Depends: firmware (>= 9.0), mobilesubstrate, net.angelxwind.karenlocalizer
+Filename: ./debs/com.susnm.WXHook_1.7.2_iphoneos-arm.deb
+Size: 206750
+MD5sum: 4935d40e64119090d575172442046f84
+SHA1: c6341dfeea87eddb7e314090af51307ea05fec13
+SHA256: 40a2e61b855556225b21feecbee1556d2536bff1e4840f09717903d4131aca38
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/susnmos/WXHook
+Description: 微信辅助。A tweak for WeChat.
+Author: susnm
+Depiction: https://susnmos.github.io/repo/depictions/?p=com.susnm.WXHook
+Name: WXHook-微信辅助
+
