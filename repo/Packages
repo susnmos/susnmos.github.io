@@ -34,3 +34,24 @@ Author: susnm
 Depiction: https://susnmos.github.io/repo/depictions/?p=com.susnm.WXHook
 Name: WXHook-微信辅助
 
+Package: net.angelxwind.karenprefs
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 169
+Depends: preferenceloader
+Filename: ./debs/net.angelxwind.karenprefs_1.0.1_iphoneos-arm.deb
+Size: 12592
+MD5sum: 154282a35530dda844d2c58b4f2e4003
+SHA1: bf8033253716fc3ed58561218e7aebcb3fbadbd2
+SHA256: c143280d3edf437ebfa1765df5037f3afdc49ee90e7ac6d64d36c0949248d1f5
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=karenprefsDp
+Description: library for developer preference bundles
+Tag: purpose::library, cydia::obsolete, compatible::ios9
+Author: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=karenprefsDp
+Dev: angelxwind
+Name: KarenPrefs
+Sponsor: thebigboss.org <http://thebigboss.org>
+
