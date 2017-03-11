@@ -1,7 +1,7 @@
 <package>
 	<id>com.susnm.WXHook</id>
 	<name>susnm</name>
-	<version>1.8</version>
+	<version>1.9</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0+</miniOS>
@@ -85,9 +85,9 @@
     </screenshot>
   </screenshots>
 	<changelog>
-    <change>- 添加了防撤回开关</change>
-    <change>- 添加了主页显示自动回复开关</change>
-    <change>- 修复了一些设备因为文件权限无法写入配置文件导致闪退的bug</change>
+    <change>- 去掉了「自动回复」的字样</change>
+    <change>- 现在可以添加一条自定义的回复内容了</change>
+    <change>- 视频过大时转发朋友圈有转发失败提示</change>
 	</changelog>
 	<links></links>
 </package>

@@ -1,4 +1,10 @@
 <changelog>
+  <changelog>
+    <version>1.9</version>
+    <change>- 去掉了「自动回复」的字样</change>
+    <change>- 现在可以添加一条自定义的回复内容了</change>
+    <change>- 视频过大时转发朋友圈有转发失败提示</change>
+  </changelog>
   <changes>
     <version>1.8</version>
     <changelog>
