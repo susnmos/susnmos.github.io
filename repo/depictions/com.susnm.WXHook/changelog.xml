@@ -5,7 +5,7 @@
   </changelog>
   <changelog>
     <version>1.9.1</version>
-    <change>- 修复了 iOS 9.0.2使用长按手势截图时进入安全模式的bug</change>
+    <change>- 修复了 iOS 9.3.3之前iOS 9设备使用截图分享时进入安全模式的bug</change>
   </changelog>
   <changelog>
     <version>1.9</version>
