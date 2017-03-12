@@ -1,7 +1,7 @@
 <changelog>
   <changes>
     <version>1.9.1-beta</version>
-    <change>- 尝试修复iOS 9.0.2 长按截图进入安全模式的bug</change>
+    <change>- 尝试修复iOS 9.0 长按截图进入安全模式的bug</change>
   </changes>
   <changes>
     <version>1.7-beta</version>

@@ -31,7 +31,7 @@
     </screenshot>
   </screenshots>
 	<changelog>
-    <change>- 尝试修复iOS 9.0.2 长按截图进入安全模式的bug</change>
+    <change>- 尝试修复iOS 9.0长按截图进入安全模式的bug</change>
 	</changelog>
 	<links></links>
 </package>
