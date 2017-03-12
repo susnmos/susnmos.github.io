@@ -22,10 +22,10 @@ Architecture: iphoneos-arm
 Maintainer: susnm
 Depends: firmware (>= 9.0), mobilesubstrate, net.angelxwind.karenlocalizer
 Filename: ./debs/com.susnm.WXHook_1.9.5_iphoneos-arm.deb
-Size: 212550
-MD5sum: c2d27ee797d08488476fe48193f8d9e1
-SHA1: 04790a1e74414b4780cc2532d77504150cdc2e6e
-SHA256: 9135a523a1ef8190bcdce4f2668ee66346afe540b2c6d5a2054b8fb78d58d1df
+Size: 212538
+MD5sum: 9ef1506627c0ac484cd8ddde8b74948a
+SHA1: b5d86260c28eb808cac921c3276a4d775f6ae89e
+SHA256: ec67d60618226b6ce9d61bcdfafe294d68a4434e04501c0bc6e4cfcf41aa78d5
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/susnmos/WXHook
