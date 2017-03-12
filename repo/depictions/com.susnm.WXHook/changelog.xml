@@ -1,5 +1,13 @@
 <changelog>
   <changelog>
+    <version>1.9.5</version>
+    <change>- 支持多开微信（每个微信WXHook的设置单独分开，如果你的分身不支持，请将该CFBundleIdentifier发给我）</change>
+  </changelog>
+  <changelog>
+    <version>1.9.4</version>
+    <change>- 修复了iOS 9.0.2截图分享时图片白色的问题</change>
+  </changelog>
+  <changelog>
     <version>1.9.3</version>
     <change>- 增加了主页左滑删除聊天对话框时保留聊天记录的功能</change>
   </changelog>
