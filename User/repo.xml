@@ -1,9 +1,0 @@
-<repo>
-	<footerlinks>
-		<link>
-			<name>我要打赏</name>
-			<url>alipayqr://platformapi/startapp?saId=10000007&qrcode=https://QR.ALIPAY.COM/FKX03704QAGDX9DH3E6S01</url>
-			<iconclass>glyphicon glyphicon-thumbs-up</iconclass>
-		</link>
-	</footerlinks>
-</repo>
