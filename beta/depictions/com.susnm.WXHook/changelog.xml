@@ -1,5 +1,9 @@
 <changelog>
   <changes>
+    <version>1.9.1-beta</version>
+    <change>- 尝试修复iOS 9.0.2 长按截图进入安全模式的bug</change>
+  </changes>
+  <changes>
     <version>1.7-beta</version>
     <change>- 尝试修复个人朋友圈页面转发信息时闪退的bug</change>
     <change>- 尝试修复WXHook设置保存闪退的bug</change>
