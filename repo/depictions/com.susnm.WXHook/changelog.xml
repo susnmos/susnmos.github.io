@@ -1,5 +1,13 @@
 <changelog>
   <changelog>
+    <version>1.9.3</version>
+    <change>- 增加了主页左滑删除聊天对话框时保留聊天记录的功能</change>
+  </changelog>
+  <changelog>
+    <version>1.9.1</version>
+    <change>- 修复了 iOS 9.0.2使用长按手势截图时进入安全模式的bug</change>
+  </changelog>
+  <changelog>
     <version>1.9</version>
     <change>- 去掉了「自动回复」的字样</change>
     <change>- 现在可以添加一条自定义的回复内容了</change>
