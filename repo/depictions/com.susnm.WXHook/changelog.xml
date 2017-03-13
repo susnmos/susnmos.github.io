@@ -1,5 +1,10 @@
 <changelog>
   <changelog>
+    <version>1.9.6</version>
+    <change>- 修复了转发朋友圈时网络差的情况下，无法下载图片导致的闪退</change>
+    <change>- 修复了微信大字体的情况下，转发按钮偏移的问题</change>
+  </changelog>
+  <changelog>
     <version>1.9.5</version>
     <change>- 支持多开微信（每个微信WXHook的设置单独分开，如果你的分身不支持，请将该CFBundleIdentifier发给我）</change>
   </changelog>
