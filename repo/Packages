@@ -17,15 +17,15 @@ Depiction: https://susnmos.github.io/repo/depictions/?p=com.susnm.RevealLoader
 Name: RevealLoader
 
 Package: com.susnm.WXHook
-Version: 1.9.6
+Version: 1.9.8
 Architecture: iphoneos-arm
 Maintainer: susnm
-Depends: firmware (>= 9.0), mobilesubstrate, net.angelxwind.karenlocalizer
-Filename: ./debs/com.susnm.WXHook_1.9.6_iphoneos-arm.deb
-Size: 215006
-MD5sum: 3f8f17a5bd92fb889e1a2ae0bd9f792c
-SHA1: 5b9e899062b67acf308135c055b133ef440d2e74
-SHA256: d0905540f56937a9881b2f5a7667d1590d146c81c25ac85bb62040e2b658a0bc
+Depends: firmware (>= 7.0), mobilesubstrate, net.angelxwind.karenlocalizer
+Filename: ./debs/com.susnm.WXHook_1.9.8_iphoneos-arm.deb
+Size: 235320
+MD5sum: 137503cc2952c47ce535e615e3b1fc5d
+SHA1: 5f9ea5ee82435667a3fba0bd3f5f20b6c3698faf
+SHA256: 64d512508afbb8ece95962170f8052f45ddfdc14197b948ce08686d412c8bc1e
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/susnmos/WXHook
