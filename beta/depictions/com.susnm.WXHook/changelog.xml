@@ -1,5 +1,12 @@
 <changelog>
   <changes>
+    <version>1.9.7-beta</version>
+    <change>- 新增群@</change>
+    <change>- 新增屏蔽输入状态</change>
+    <change>- 修复其他截图方式无法分享的问题</change>
+    <change>- 修新增一些功能按钮显示的开关（朋友圈转发和其他插件冲突，可以尝试关闭该功能）</change>
+  </changes>
+  <changes>
     <version>1.9.1-beta</version>
     <change>- 尝试修复iOS 9.0 长按截图进入安全模式的bug</change>
   </changes>
