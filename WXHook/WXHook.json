@@ -1,4 +1,4 @@
 {
-	"version": "1.9.8",
-	"description": "- 新增群@功能（长按群内的输入框）\n- 新增屏蔽输入状态\n- 修复其他截图方式无法分享的问题\n- 新增一些功能按钮显示的开关"
+	"version": "1.9.8-1",
+	"description": "- 需要安装旧版本的用户可以在我的新源\nhttp://susnm.caiyy.vip/\n安装SwitchVersionForWXHook后在终端实现切换（具体操作可以在cydia的插件页面查看截图介绍）"
 }
